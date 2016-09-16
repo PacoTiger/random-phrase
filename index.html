@@ -1,0 +1,62 @@
+<!--  _
+  ( \                ..- - - - -..__
+   \.'.        _.- -'`  [   '  ' ```'-._
+    `. `'-..-'' `    '  ' '   .  ;   ; `-'''-.,__/|/_
+      `'-.;..-''`|'  `.  '.    ;     '  `    '   `'  `,
+                 \ '   .    ' .     '   ;   .`   . ' 7 \
+                  '.' . '- . \    .`   .`  .   .\     `Y
+                    '-.' .   ].  '   ,    '    /'`""';:'
+                      /Y   '.] '-._ /    ' _.-'
+                      \'\_   ; (`'.'.'  ."/
+                       ' )` /  `.'   .-'.'
+                        '\  \).'  .-'- "
+                          `. `,_'`
+                            `.__)  @PacoTiger
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Exercise</title>
+	<link rel="stylesheet" type="text/css" href="mine.css">
+
+</head>
+<body>
+<div>
+		<h1>Generador de Frases Aleatorias</h1>
+</div>
+<div class="container">
+	
+	<h2></h2>
+	<div class="btn">
+		<button id="refresh" ="refresh">Cambia</button>
+	</div>
+
+	<div>
+		<form>
+		<input type="text" value="Write a new phrase and press enter key"
+ 		onblur="if (this.value == '') {this.value = 'Write a new phrase and press enter key';}"
+ 		onfocus="if (this.value == 'Write a new phrase and press enter key') {this.value = '';}"/>
+		</form>
+	</div>
+	
+	<section>		
+		<ul id="lista">
+		</ul>
+		<ul id="efect">
+		</ul>
+	</section>
+	<div>
+		<a href="#" id="btn2">Mostrar / Ocultar frases</a>
+	</div>	
+</div>
+	
+    <script src="jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="mine.js"></script>
+</body>
+
+
+
+
+
+</html>
